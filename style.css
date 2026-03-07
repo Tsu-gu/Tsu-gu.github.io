@@ -44,7 +44,7 @@ h3 {
     border-bottom: none;
     max-width: 500px;
     margin: 1em auto;
-    background: linear-gradient(to right, #ffe600, #f0a924, #ffdd00);
+    background: linear-gradient(to right, #ffb01e, #ffdd00);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     margin: 0em auto; /*This controls the padding. Without it, the member count has too much space around it*/
