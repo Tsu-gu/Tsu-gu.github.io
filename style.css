@@ -20,7 +20,8 @@ h1 {
 }
 .group-item img {
     width: 150px;
-        padding-top: 4px;
+    padding-top: 4px;
+    border-radius: 20px;    
 }
 
 
