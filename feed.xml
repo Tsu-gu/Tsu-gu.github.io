@@ -1,0 +1,80 @@
+<rss version="2.0">
+<channel>
+
+<title>Threema Groups RSS Feed</title>
+<link>https://threemagroups.xyz</link>
+<description>By subscribing to this feed you will receive updates about the newly added groups.</description>
+<item>
+<title>Changed the look a bit</title>
+<link>https://threemagroups.xyz</link>
+<description>Added images infront and after group names</description>
+<pubDate>Aug 14 2024</pubDate>
+</item>
+
+
+<item>
+<title>Privacy &amp; Surveillance 2.0</title>
+<link>https://threema.id/J4NCEU69</link>
+<description>Similar to Surveillance State.</description>
+<pubDate>Aug 7 2024</pubDate>
+</item>
+
+
+<item>
+<title>Arr!</title>
+<link>https://threema.id/33SUHC8P</link>
+<description>A group about discussing tv shows, movies, books, music and games.</description>
+</item>
+
+
+<item>
+<title>Developers &amp; Enthusiasts</title>
+<link>https://threema.id/FE7JUSWZ</link>
+<description>Programmers sharing their experiences and helping each other.</description>
+</item>
+
+<item>
+<title>Surveillance State</title>
+<link>https://threema.id/XENJFKT6</link>
+<description>A tech group where the main topics are privacy and security.</description>
+</item>
+
+<item>
+<title>Lucky Cat Chat</title>
+<link>https://threema.id/6CH24JJE</link>
+<description>A chat about tech, shitposts and cats.</description>
+</item>
+
+<item>
+<title>Thr33ma After Dark (18+)
+</title>
+<link>https://threema.id/33SUHC8P</link>
+<description>A NSFW group where you can talk about adult topics.</description>
+</item>
+
+<item>
+<title>Off-topic</title>
+<link>https://threema.id/XENJFKT6</link>
+<description>A general chat, without a set topic.</description>
+</item>
+
+<item>
+<title>Global Policy Highlights</title>
+<link>https://threema.id/XENJFKT6</link>
+<description>A group about what's happening in the world and politics.</description>
+</item>
+
+<item>
+<title>Emerging Diseases</title>
+<link>https://threema.id/XENJFKT6</link>
+<description>A group focused on virology.</description>
+</item>
+
+<item>
+<title>Revuo Monero</title>
+<link>https://threema.id/Y99DFWMR</link>
+<description>A weekly and quarterly Monero newsletter.</description>
+</item>
+
+</channel>
+</rss>

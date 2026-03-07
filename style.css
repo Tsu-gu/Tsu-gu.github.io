@@ -1,0 +1,392 @@
+body {
+    color: white;
+    background-color: #1f1f1f;
+    background-image: url("bg.png");
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+    color: lime;
+    font-size: 24pt;
+    border-bottom: none;
+    max-width: 500px;
+    margin: 1em auto;
+    background: linear-gradient(to right, #00ff00, #4de61e, #5fff20, #02c543);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.group-item img {
+    width: 150px;
+        padding-top: 4px;
+}
+
+
+h2 {
+    text-align: center;
+    color: lime;
+    font-size: 24pt;
+    border-bottom: none;
+    max-width: 500px;
+    margin: 1em auto;
+    background: linear-gradient(to right, #00ff00, #4de61e, #5fff20, #02c543);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h3 {
+    text-align: center;
+    color: deeppink;
+    font-size: 17pt;
+    border-bottom: none;
+    max-width: 500px;
+    margin: 1em auto;
+    background: linear-gradient(to right, #ffe600, #f0a924, #ffdd00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 0em auto; /*This controls the padding. Without it, the member count has too much space around it*/
+
+}
+#copyNotification {
+	position: fixed;
+	top: 40px; /* Padding from the top of the page */
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(48, 48, 48, 0.95);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 15px;
+	font-size: 18px;
+	display: none; /* Hidden by default */
+	z-index: 9999;
+  }
+a {
+    color: lightblue;
+    text-align: center;
+}
+
+.logo {
+    /*This is empty on purpose, so that when you hover over the logo it loads the other image*/
+}
+
+.logo:hover {
+    content: url("3ma1.png");
+}
+
+.allign {
+    text-align: justify;
+}
+
+:root {
+    color-scheme: only light;
+}
+
+a:hover {
+    color: white;
+}
+
+p img,
+li img,
+h1 img,
+h3 img {
+    vertical-align: middle;
+    max-width: 1.4em;
+    max-height: 1.4em;
+    border: solid 5px transparent;
+    display: inline;
+}
+.join-button-crypto img {
+    margin-right: 10px; /* Adds space between image and text */
+    width: 20px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
+img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    border: none;
+}
+
+main {
+    margin: auto;
+    font-family: monospace;
+    margin-bottom: 200px;
+}
+.spinning-coin {
+    display: inline-block;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.step-number {
+    color: #5fff20;
+}
+.groups-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.group-item {
+    flex: 1 1 calc(50% - 10px); 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.imgmobile80 {
+	max-width: 80% ;
+	margin: auto ;
+	display: block ;
+	border: none ;
+}
+
+.imgmobile {
+	max-width: 65% ;
+	margin: auto ;
+	display: block ;
+	border: none ;
+}
+.imgmobile60 {
+	max-width: 60% ;
+	margin: auto ;
+	display: block ;
+	border: none ;
+}
+.imgmobile50 {
+	max-width: 50% ;
+	margin: auto ;
+	display: block ;
+	border: none ;
+}
+.imgmobile40 {
+	max-width: 40% ;
+	margin: auto ;
+	display: block ;
+	border: none ;
+}
+
+.imgmobile35 {
+	max-width: 35% ;
+	margin: auto ;
+	display: block ;
+	border: none ;
+}
+
+.imgmobile30 {
+	max-width: 30% ;
+	margin: auto ;
+	display: block ;
+	border: none ;
+}
+
+
+@media (min-width: 55em) {
+
+    header {
+        max-width: 900px;
+        margin: auto;
+    }
+    main {
+        max-width: 850px;
+    }
+}
+
+/*This only applies to phone screens mobili*/
+@media (max-width: 30em) {
+    body {
+        color: white;
+        background-color: #1f1f1f;
+        background-image: url("bg1.png");
+        margin-bottom: 10px;
+        font-family: monospace;
+        font-size: 16px;
+    }
+    .imgmobile80 {
+        max-width: 100% ;
+        margin: auto ;
+        display: block ;
+        border: none ;
+    }
+    
+    .imgmobile {
+        max-width: 100% ;
+        margin: auto ;
+        display: block ;
+        border: none ;
+    }
+    
+    .imgmobile60 {
+        max-width: 100% ;
+        margin: auto ;
+        display: block ;
+        border: none ;
+    }
+    .imgmobile50 {
+        max-width: 100% ;
+        margin: auto ;
+        display: block ;
+        border: none ;
+    }
+    .imgmobile40 {
+        max-width: 100% ;
+        margin: auto ;
+        display: block ;
+        border: none ;
+    }
+    
+    .imgmobile35 {
+        max-width: 100% ;
+        margin: auto ;
+        display: block ;
+        border: none ;
+    }
+    
+    .imgmobile30 {
+        max-width: 100% ;
+        margin: auto ;
+        display: block ;
+        border: none ;
+    }
+    .groups-container {
+        display: block; 
+    }
+
+    .group-item {
+        width: 100%; 
+        margin-bottom: 30px; 
+    }
+
+    .group-item:last-child {
+        margin-bottom: 30px; 
+    }
+}
+
+.kontakt {
+    text-align: center;
+}
+p.kontakt {
+    margin: 0.5em auto; 
+}
+::-webkit-scrollbar {
+	width: 12px; 
+	height: 16px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #1f1f1f; 
+	border-radius: 10px; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: white; 
+	border-radius: 10px; 
+	border: 0px solid #f5f5f5; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(209, 209, 209); 
+  }
+  
+  ::-webkit-scrollbar-corner {
+	background: #ddd; /* Match track color */
+  }
+.join-button {
+    padding: 10px 15px;
+    color: white;
+    background-color: #474747;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.2s, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.join-button:hover {
+    background-color: #535353;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.join-button:active {
+    background-color: #3b3b3b;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(3px);
+}
+
+
+
+
+
+.join-button-crypto {
+	margin-bottom: 10px; 
+    padding: 10px 15px;
+    color: white;
+    background-color: #474747;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex; /* Use flexbox to align image and text horizontally */
+    align-items: center; /* Vertically align the image and text */
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.2s, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Add hover effect for buttons */
+.join-button-crypto:hover {
+    background-color: #535353;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Add active effect for buttons */
+.join-button-crypto:active {
+    background-color: #3b3b3b;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(3px);
+}
+
+
+.join-button-donate {
+    padding: 10px 15px;
+    color: white;
+    background-color: #474747;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.2s, transform 0.2s;
+    box-shadow: 0px 0px 15px rgba(255, 187, 0, 0.904);
+    margin-bottom: 10px;
+}
+
+.join-button-donate:hover {
+    background-color: #535353;
+    box-shadow: 0px 0px 25px rgb(255, 187, 0);
+}
+
+.join-button-donate:active {
+    background-color: #3b3b3b;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(3px);
+}
+.white {
+	color: lime;
+}
+@media (max-width: 30em) {
+.group-item img {
+    width: 50%;
+        padding-top: 4px;
+}
+}
